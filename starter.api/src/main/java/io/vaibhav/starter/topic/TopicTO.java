@@ -35,6 +35,11 @@ public class TopicTO {
 	public void setDescription(String description) {
 		this.description = description;
 	}
+
+	@Override
+	public String toString() {
+		return "TopicTO [id=" + id + ", name=" + name + ", description=" + description + "]";
+	}
 	
 	
 
